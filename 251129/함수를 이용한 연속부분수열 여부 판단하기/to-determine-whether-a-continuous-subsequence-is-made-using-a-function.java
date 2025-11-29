@@ -20,14 +20,12 @@ public class Main {
         else{
             int idx=0;
             for(int j=startIdx;j<n2+startIdx;j++){
-                if(a[j]!=b[idx] && flag==0){
+                if(a[j]!=b[idx++] && flag==0){
                     System.out.println("No");
                     flag=1;
                     break;
                 }
-                else{
-                    idx++;
-                }
+  
             }
             if(flag==0){
             System.out.println("Yes");
