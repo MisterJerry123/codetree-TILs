@@ -18,6 +18,12 @@ public class Main {
             flag=1;
         }
         else{
+            if(startIdx+b.length>a.length){
+            System.out.println("No");
+            flag=1;
+
+            }
+            else{
             int idx=0;
             for(int j=startIdx;j<n2+startIdx;j++){
                 if(a[j]!=b[idx++] && flag==0){
@@ -31,6 +37,9 @@ public class Main {
             System.out.println("Yes");
 
             }
+            }
+
+            
         }
     }
 
