@@ -9,15 +9,21 @@ public class Main{
 
         switch(b){
             case '+':
-            System.out.println(a +" + "+c+" = "+(a+c));
+                System.out.println(a +" + "+c+" = "+(a+c));
+                break;
             case '-':
-            System.out.println(a +" - "+c+" = "+(a-c));
+                System.out.println(a +" - "+c+" = "+(a-c));
+                break;
+
             case '*':
-            System.out.println(a +" * "+c+" = "+(a*c));
+                System.out.println(a +" * "+c+" = "+(a*c));
+                break;
             case '/':
-            System.out.println(a +" / "+c+" = "+(a/c));
-            else"
-            System.out.println("False")
+                System.out.println(a +" / "+c+" = "+(a/c));
+                break;
+            default:
+                System.out.println("False");
+                break;
         }
     }
 }
