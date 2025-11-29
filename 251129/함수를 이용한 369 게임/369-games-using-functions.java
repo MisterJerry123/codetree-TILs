@@ -8,6 +8,8 @@ public class Main{
                 int t = i%10;
                 if(t==3 || t==6 || t==9 || init%3==0){
                     cnt++;
+                    //System.out.println("통과"+ init);
+
                     init/=10;
                     break;
                 }
